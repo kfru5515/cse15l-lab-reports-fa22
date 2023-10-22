@@ -1,11 +1,12 @@
-LabReport1 <br> 
+LabReport2 <br> 
 HYEONJUN JUN <br>
 A17181983 <br>
 ---
 ### PART 1 CODE & PAGE SHOW
-<img src= "https://github.com/kfru5515/cse15l-lab-reports-fa23/blob/main/Screenshot%202023-10-22%20103942.png"/>
-<img src = "https://github.com/kfru5515/cse15l-lab-reports-fa23/blob/main/Screenshot%202023-10-22%20111137.png"/>
+![Screenshot 2023-10-22 103942](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/286374e3-24ea-4863-8e2d-84dbc2d18271)
 
+![Screenshot 2023-10-22 111137](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/92da7f1d-d56b-4c69-beb6-5218a6eeba9a)
+![Screenshot 2023-10-22 133228](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/a239a79c-8fb2-4d1e-9978-b9d4f378005e)
 
 Question ans answer For part 1:
 ---
@@ -29,5 +30,3 @@ Answer: The 'message' filed changes when a request '/add-message' path is receiv
 ---
 In a couple of sentences, describe something you learned from lab in week 2 or 3 that you didn’t know before.<br>
 I used ssh couple times before this class, from this lab we learned about scp. It's evident that it provides a secure way to copy files between a local host and a remote host, so it provied us easy way to connect to the server, but it requires specifying the full path of the file on both the local and remote machines along with the relevant usernames. scp provides a straightforward and secure method for transferring files over SSH and is commonly used in various situations, including transferring data to and from remote servers and performing backups.
-
-
