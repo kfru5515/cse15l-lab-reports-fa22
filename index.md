@@ -1,4 +1,4 @@
-LabReport1 <br> 
+LabReport2 <br> 
 HYEONJUN JUN <br>
 A17181983 <br>
 ---
