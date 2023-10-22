@@ -3,9 +3,9 @@ HYEONJUN JUN <br>
 A17181983 <br>
 ---
 ### PART 1 CODE & PAGE SHOW
-<img src= "https://github.com/kfru5515/cse15l-lab-reports-fa23/blob/main/Screenshot%202023-10-22%20103942.png"/>
-<img src = "https://github.com/kfru5515/cse15l-lab-reports-fa23/blob/main/Screenshot%202023-10-22%20111137.png"/>
+![Screenshot 2023-10-22 103942](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/286374e3-24ea-4863-8e2d-84dbc2d18271)
 
+![Screenshot 2023-10-22 111137](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/92da7f1d-d56b-4c69-beb6-5218a6eeba9a)
 
 Question ans answer For part 1:
 ---
