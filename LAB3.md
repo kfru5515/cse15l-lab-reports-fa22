@@ -4,7 +4,7 @@ A17181983 <br>
 ---
 ### PART 1 - Bugs
 
-<br>A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+<br> # A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 ```
 
 # code block (Error Input)
@@ -30,7 +30,7 @@ public class ArrayTests {
 }
 ```
 
-<br>An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+<br> # An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 ```
 # code block (Error Input)
 import static org.junit.Assert.*;
@@ -52,12 +52,12 @@ public class ArrayTests {
 }
 ```
 
-<br>An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
+<br> # An input that doesn’t induce a failure, as a JUnit test and any associated code (write it as a code block in Markdown)
 
 
 <img src= "https://github.com/kfru5515/cse15l-lab-reports-fa23/blob/main/Screenshot%202023-11-04%20114506.png?raw=true"/>
 
-<br>The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
+<br> # The bug, as the before-and-after code change required to fix it (as two code blocks in Markdown)
 ```
 # code block (Original Code)
   static void reverseInPlace(int[] arr) {
@@ -99,8 +99,12 @@ public class ArrayTests {
 
 
 ```
+<br> # Briefly describe why the fix addresses the issue.
+<br> (reverseInPlace) the original code basically incomplited, it replaces each element with its corresponding element in the reversed position. Therefore, changed the elements are correctly swapped, ensuring that the array is reversed in place. and the loop goes up to length of 1/2 size. 
+
+<br> (reversed) the original code implementation incorrectly assigned the elements of the array to their corresponding reversed positions, which resulted in overwriting half of the array with incorrect values. Threfore,  changed implementation correctly assigend the elements of the array to their reversed positions. 
 
 ### Part 2 - Researching Commands
-
+LET's go
 
 
