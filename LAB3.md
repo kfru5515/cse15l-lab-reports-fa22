@@ -129,9 +129,10 @@ Out put: ./technical/plos/pmed.0020206.txt: medical centers
  the FDA, ...
 From https://git-scm.com/docs/git-grep
 
--R command recursively searches for the term "Korea" in all
-files within the ./technical directory. It is helpful for
-finding occurrences of a pattern for many files and dir.
+-R command recursively searches for the term "Korea" in 
+all files within the ./technical directory. It is helpful
+ for finding occurrences of a pattern for many files and 
+ dir.
 
 ```
 
@@ -164,7 +165,9 @@ Example: $ grep -Rc "She" ./technical./technical/plos/pmed.0020239.txt:0
 ./technical/plos/pmed.0020281.txt:0
 
 From https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_02.html
--Rc command count the occurrences of the term "He" in every files in ./techinal and it display the number of word count. 
+-Rc command count the occurrences of the term "He" in 
+every files in ./techinal and it display the number of 
+word count. 
 ```
 
 ```
@@ -172,17 +175,29 @@ From https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_02.html
 Example:
 $ grep -Ri "Korea" ./technical
 Output: 
-./technical/government/Media man_on_national_team.txt:that document his days as a boxer, a Korean War veteran, a./technical/government/Media/Understanding.txt:Plans are to expand the effort to include Korean and Khmer, the ./technical/plos/journal.pbio.0020121.txt: imported cases in the Republic of Korea, but surveillance has not been thorough in North
+./technical/government/Media man_on_national_team.
+txt:that document his days as a boxer, a Korean War 
+veteran, a./technical/government/Media/Understanding.
+txt:Plans are to expand the effort to include Korean and 
+Khmer, the ./technical/plos/journal.pbio.0020121.txt: 
+ cases in the Republic of Korea, but surveillance has not
+  been thorough in North
 
 Example: 
 $ grep -Ri "United States" ./technical
 Output:
 ./technical/plos/pmed.0020209.txt: “There is no
  independent voice for drug safety in the United States.”
- ./technical/plos/pmed.0020210.txt: Park, California, United States. At least one compound from this series is entering ./technical/plos/pmed.0020231.txt:        Rouge, Boston, and Saint Louis (all in the United States) have undertaken studies of 
+ ./technical/plos/pmed.0020210.txt: Park, California,
+  United States. At least one compound from this series is entering ./technical/plos/pmed.0020231.txt:      
+    Rouge, Boston, and Saint Louis (all in the United 
+    ) have undertaken studies of
  
  From https://linuxcommand.org/lc3_man_pages/grep1.html
-grep -Ri command searches for the term "Korea" in techinical dir. It helps to find instances of a word regardless of its case, which can be helpful for case-insensitive searches.
+grep -Ri command searches for the term "Korea" in 
+techinical dir. It helps to find instances of a word
+ regardless of its case, which can be helpful for 
+ case-insensitive searches.
 ```
 
 ```
@@ -199,7 +214,9 @@ Korea
 
 From https://linuxcommand.org/lc3_man_pages/grep1.html
 
-for the first example output show up the the is a ./technical is a directory. and second example works thus, it's have to be file. 
+for the first example output show up the the is a 
+./technical is a directory. and second example works thus,
+ it's have to be file. 
 ```
 
 
