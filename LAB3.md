@@ -109,17 +109,28 @@ public class ArrayTests {
 ```
 # code block (Grep -R)
 Example : grep -R "Korea" ./technical/
-<br>Out put : ./technical/911report/chapter-11.txt:                in Korea another. But these were attacks by major powers. While by no means as
-./technical/911report/chapter-11.txt:                the main focus (war in Korea), and as too unrealistic. As we pointed out in chapter
-./technical/911report/chapter-12.txt:                not experienced such a rapid surge in national security spending since the Korean
-./technical/911report/chapter-13.4.txt:                Khallad, Aug. 13, 2003; Apr. 5, 2004. According to Khallad, Thailand, South Korea. ...
-<br><br>
+Out put : ./technical/911report/chapter-11.txt:               
+in Korea another. But these were attacks by major powers.
+ While by no means as ./technical/911report/chapter-11.txt:  
+  the main focus (war in Korea), and as too unrealistic. As
+   we pointed out in chapter ./technical/911report/chapter-12
+   .txt: not experienced such a rapid surge in national
+    security spending since the Korean ./technical/911report
+    chapter-13.4.txt: Khallad, Aug. 13, 2003; Apr. 5, 2004.
+     According to Khallad, Thailand, South Korea. ...
+
 Example : grep -R "United States
-<br>Out put: ./technical/plos/pmed.0020206.txt:        medical centers in the United States, yet I learned a great deal about these topics from      
-./technical/plos/pmed.0020208.txt:        them was David Graham, Associate Director in the United States Food and Drug
-./technical/plos/pmed.0020209.txt:            testified at a United States Senate Finance Committee hearing on rofexocib, the FDA, ...
-<br>from https://git-scm.com/docs/git-grep
-This command recursively searches for the term "Korea" in all files within the ./technical directory. It is helpful for finding occurrences of a pattern for many files and dir.
+Out put: ./technical/plos/pmed.0020206.txt: medical centers
+ in the United States, yet I learned a great deal about these
+  topics from ./technical/plos/pmed.0020208.txt:them was
+   David Graham, Associate Director in the United States Food
+    and Drug ./technical/plos/pmed.0020209.txt:testified at a
+     United States Senate Finance Committee hearing on rofexocib, the FDA, ...
+From https://git-scm.com/docs/git-grep
+
+This command recursively searches for the term "Korea" in all
+ files within the ./technical directory. It is helpful for
+ finding occurrences of a pattern for many files and dir.
 
 ```
 
