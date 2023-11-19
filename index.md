@@ -134,6 +134,8 @@ all files within the ./technical directory. It is helpful
  for finding occurrences of a pattern for many files and 
  dir.
 <br>
+-R for Read  all  files under each directory, recursively.  Follow all symbolic links, unlike -r.
+<br>
 why it is useful: It's valuable for exploring and searching through directory structures. It's commonly used in codebase exploration, log analysis, and general text searches across multiple files.
 ```
 # code block (Grep -Rc)
@@ -170,6 +172,8 @@ From https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_02.html
 every files in ./techinal and it display the number of 
 word count. 
 <br>
+The grep -Rc command is used to count the number of occurrences of a pattern in a set of files, and it reports the count for each file.
+<br>
 why it is useful: This is useful when we want to quickly determine the total count of occurrences of a pattern across files. It's helpful for obtaining a quantitative measure of the prevalence of a particular string or pattern.
 
 
@@ -203,6 +207,8 @@ techinical dir. It helps to find instances of a word
  regardless of its case, which can be helpful for 
  case-insensitive searches.
  <br>
+-Ri Read  all  files under each directory, recursively.  Follow all symbolic links, unlike -r and Process  a  binary  file  as if it did not contain matching.
+ <br>
 why it is useful: When we want to perform a case-insensitive search. It ensures that we find matches regardless of the case, which can be important when patterns may appear in different letter cases.
 
 ```
@@ -218,12 +224,12 @@ Korea
 Korea
 
 From https://linuxcommand.org/lc3_man_pages/grep1.html
-
-
 ```
 for the first example output show up the the is a 
 ./technical is a directory. and second example works thus,
  it's have to be file. 
- <br>
-
+<br>
+-o is Print  only  the  matched  (non-empty)  parts of a matching
+line, with each such part on a separate output line.
+<br>
 why it is useful: This is handy when we are interested in extracting and viewing only the specific matched portions of lines. It's useful for scenarios where we want to isolate and analyze the specific content that matches a given pattern.
