@@ -3,8 +3,7 @@ HYEONJUN JUN <br>
 A17181983 <br>
 ---
 ### PART 1 - Bugs
-
-<br> # A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
+ A failure-inducing input for the buggy program, as a JUnit test and any associated code (write it as a code block in Markdown)
 ```
 
 # code block (Error Input)
@@ -129,13 +128,13 @@ Out put: ./technical/plos/pmed.0020206.txt: medical centers
  the FDA, ...
 From https://git-scm.com/docs/git-grep
 
+```
 -R command recursively searches for the term "Korea" in 
 all files within the ./technical directory. It is helpful
  for finding occurrences of a pattern for many files and 
  dir.
-
-```
-
+<br>
+why it is useful: It's valuable for exploring and searching through directory structures. It's commonly used in codebase exploration, log analysis, and general text searches across multiple files.
 ```
 # code block (Grep -Rc)
 grep -Rc "error" ./technical
@@ -165,13 +164,17 @@ Example: $ grep -Rc "She" ./technical./technical/plos/pmed.0020239.txt:0
 ./technical/plos/pmed.0020281.txt:0
 
 From https://tldp.org/LDP/Bash-Beginners-Guide/html/sect_04_02.html
+
+```
 -Rc command count the occurrences of the term "He" in 
 every files in ./techinal and it display the number of 
 word count. 
-```
+<br>
+why it is useful: This is useful when we want to quickly determine the total count of occurrences of a pattern across files. It's helpful for obtaining a quantitative measure of the prevalence of a particular string or pattern.
+
 
 ```
-# code block (Grep -F)
+# code block (Grep -Ri)
 Example:
 $ grep -Ri "Korea" ./technical
 Output: 
@@ -194,11 +197,13 @@ Output:
     ) have undertaken studies of
  
  From https://linuxcommand.org/lc3_man_pages/grep1.html
+```
 grep -Ri command searches for the term "Korea" in 
 techinical dir. It helps to find instances of a word
  regardless of its case, which can be helpful for 
  case-insensitive searches.
-```
+ <br>
+why it is useful: When we want to perform a case-insensitive search. It ensures that we find matches regardless of the case, which can be important when patterns may appear in different letter cases.
 
 ```
 # code block (Grep -o)
@@ -214,10 +219,13 @@ Korea
 
 From https://linuxcommand.org/lc3_man_pages/grep1.html
 
+
+```
 for the first example output show up the the is a 
 ./technical is a directory. and second example works thus,
  it's have to be file. 
-```
+ <br>
 
+why it is useful: This is handy when we are interested in extracting and viewing only the specific matched portions of lines. It's useful for scenarios where we want to isolate and analyze the specific content that matches a given pattern.
 
 
