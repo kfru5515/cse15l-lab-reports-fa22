@@ -13,7 +13,7 @@ Keys pressed: git clone git@github.com:kfru5515/cse15l-lab-reports-fa23.git <ent
 ### Step6
 ![Lab4part3](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/75e0b581-d1af-423f-bcae-ac0025e2c417)
 <br>
-Keys pressed: cd lab7 <enter bash test.sh <eneter>
+Keys pressed: cd lab7 <enter> bash test.sh <eneter>
 ### Step 7
 ![Lab4part4](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/847fb87c-c208-4413-9f74-27b99d27207e)
 <br>
