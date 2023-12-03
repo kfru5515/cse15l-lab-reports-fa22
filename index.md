@@ -1,25 +1,11 @@
-LabReport4 <br> 
+LabReport5 <br> 
 HYEONJUN JUN <br>
 A17181983 <br>
 ---
-### Step4
-![lab4Pat1](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/52fdf45c-a0da-4107-ba20-71874847ca3d)
-<br>
-Keys pressed: ssh cs15lfa23jo@ieng6.ucsd.edu enter
-### Step5
-![Lab4part2](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/59d436d5-8d36-4956-8773-e62398bf68e0)
-<br>
-Keys pressed: git clone git@github.com:kfru5515/cse15l-lab-reports-fa23.git enter
-### Step6
-![Lab4part3](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/75e0b581-d1af-423f-bcae-ac0025e2c417)
-<br>
-Keys pressed: cd lab7 enter bash test.sh enter
-### Step 7
-![Lab4part4](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/847fb87c-c208-4413-9f74-27b99d27207e)
-<br>
-Keys pressed: vim ListsExamples.java enter 325e i 2 -> backsapce esc :wq enter
--> this key type make it move to right side while we are in insert mode. 
-### Step 8
-![Lab4part5](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/55e483b6-8c97-4f7b-9d82-70249f974616)
-<br>
-Keys pressed: git add lab7 eneter git commit -m "index1 to index2" eneter git push eneter
+### Part1 - Debugging Scenario
+1.![Screenshot 2023-12-03 103614](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/0dbe958e-30ba-4acd-93e3-6e9af487315d)<br>
+![LAB5-3](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/887b8a63-ef39-40c6-9d20-25d648ef3645)<br>
+2. Seems like you learning code on widows system but in your bash file line 1 Cpath is for mac os. In a Unix-based system like macOS (which is based on Unix), the classpath separator is usually a colon :. However, in Windows, it's typically a semicolon ;. So, if you're specifying the classpath for Java on both platforms, you might need to adjust the path separator accordingly. so you were code CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar' changed to CPATH='.;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar' <br>For the second photo has error on junit file thus error for Classpath Configuration:includes the directory or JAR file containing the StringChecker class/interface. For example, if StringChecker is part of an external JAR file, include that JAR in your classpath.  
+3.![Lab5-1](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/000a43b1-07b4-42e9-98cc-9f6da2cc8252)
+### Part2 - Reflection
+From Cse15L Learned about Github, debugging and SSH. GitHub is like this awesome platform our code while working on group projects and create a space called a repository for your project, and it keeps track of all the changes you make, can easily go back to an older version if you break something. Pull requests are like a way to show off your changes to the team before actually putting them into the main code. And when things go wrong, debugging is like detective work. we put these print things in your code to figure out where it's going wrong, use fancy tools to step through your code, and write tests to catch problems early. all I learend from this class, will help my futures. 
