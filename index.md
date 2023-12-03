@@ -3,7 +3,7 @@ HYEONJUN JUN <br>
 A17181983 <br>
 ---
 ### Part1 - Debugging Scenario
-1.![Screenshot 2023-12-03 103614](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/0dbe958e-30ba-4acd-93e3-6e9af487315d)<br>
+![Screenshot 2023-12-03 103614](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/0dbe958e-30ba-4acd-93e3-6e9af487315d)<br>
 ![LAB5-3](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/887b8a63-ef39-40c6-9d20-25d648ef3645)<br>
 2. Seems like you learning code on widows system but in your bash file line 1 Cpath is for mac os. In a Unix-based system like macOS (which is based on Unix), the classpath separator is usually a colon :. However, in Windows, it's typically a semicolon ;. So, if you're specifying the classpath for Java on both platforms, you might need to adjust the path separator accordingly. so you were code CPATH='.:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar' changed to CPATH='.;lib/hamcrest-core-1.3.jar;lib/junit-4.13.2.jar' <br>For the second photo has error on junit file thus error for Classpath Configuration:includes the directory or JAR file containing the StringChecker class/interface. For example, if StringChecker is part of an external JAR file, include that JAR in your classpath.  
 3.![Lab5-1](https://github.com/kfru5515/cse15l-lab-reports-fa23/assets/120256621/000a43b1-07b4-42e9-98cc-9f6da2cc8252)
